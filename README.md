@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+[world_bomun.index.html](https://github.com/user-attachments/files/33048857/world_bomun.index.html)
+
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>월드검품소 - 최상의 품질을 위한 타협 없는 기준</title>
-    <!-- Tailwind CSS (디자인 프레임워크) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         html { scroll-behavior: smooth; }
@@ -12,9 +12,8 @@
         .bg-navy { background-color: #1a2a3a; }
     </style>
 </head>
-<body class="font-sans text-gray-800 antialiased bg-white">
+<body class="font-sans text-gray-800 antialiased bg-white w-full overflow-x-hidden">
 
-    <!-- 내비게이션 바 -->
     <nav class="bg-white shadow-md fixed w-full z-50 top-0">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
@@ -32,7 +31,6 @@
         </div>
     </nav>
 
-    <!-- 메인 타이틀 (Home) -->
     <section id="home" class="pt-32 pb-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 class="text-4xl md:text-5xl font-bold text-navy mb-6 leading-tight">
@@ -49,12 +47,10 @@
         </div>
     </section>
 
-    <!-- 소개 영역 (Apparel Inspection) -->
-    <section id="about" class="py-20">
+    <section id="about" class="py-20 w-full">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 <div class="w-full lg:w-1/2">
-                    <!-- 수정된 작업장 이미지 (단순화된 파일명) -->
                     <img src="inspection.jpg" alt="월드검품소 작업장 환경" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]">
                 </div>
                 <div class="w-full lg:w-1/2">
@@ -71,8 +67,7 @@
         </div>
     </section>
 
-    <!-- 3단계 검품 시스템 (Services) -->
-    <section id="services" class="py-20 bg-gray-50">
+    <section id="services" class="py-20 bg-gray-50 w-full">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-navy mb-4">체계적인 3단계 검품 시스템</h2>
@@ -80,19 +75,16 @@
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- 1단계 -->
                 <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition text-center">
                     <div class="w-16 h-16 bg-blue-100 text-blue-900 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">1</div>
                     <h3 class="text-xl font-bold text-navy mb-3">외관 및 오염 검사</h3>
                     <p class="text-gray-600">원단의 이색, 미세한 오염, 스크래치 등 외부적인 결함을 밝은 조명 아래서 꼼꼼하게 확인합니다.</p>
                 </div>
-                <!-- 2단계 -->
                 <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition text-center">
                     <div class="w-16 h-16 bg-blue-100 text-blue-900 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">2</div>
                     <h3 class="text-xl font-bold text-navy mb-3">봉제 상태 검사</h3>
                     <p class="text-gray-600">땀수, 땀뜀, 봉제선 틀어짐, 실밥 처리 등 전체적인 의류의 완성도와 봉제 퀄리티를 엄격하게 체크합니다.</p>
                 </div>
-                <!-- 3단계 -->
                 <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition text-center">
                     <div class="w-16 h-16 bg-blue-100 text-blue-900 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">3</div>
                     <h3 class="text-xl font-bold text-navy mb-3">포장 및 최종 확인</h3>
@@ -102,8 +94,7 @@
         </div>
     </section>
 
-    <!-- 해외 수출 (Global Export) -->
-    <section id="export" class="py-20">
+    <section id="export" class="py-20 w-full">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-bold text-navy mb-6">해외시장을 만족시키는 하이엔드 퀄리티</h2>
             <p class="text-gray-600 text-lg leading-relaxed">
@@ -113,25 +104,20 @@
         </div>
     </section>
 
-    <!-- 상담 문의 (Contact Us - 카카오톡 전용) -->
-    <section id="contact" class="py-20 bg-blue-900">
+    <section id="contact" class="py-20 bg-blue-900 w-full">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-bold text-white mb-4">빠르고 간편한 상담 문의</h2>
             <p class="text-blue-200 mb-10">스마트폰 카메라로 QR코드를 스캔하여 카카오톡으로 편하게 문의주세요.</p>
             
             <div class="bg-white p-8 rounded-2xl shadow-2xl inline-block">
-                <!-- 카카오톡 프로필 이미지 (단순화된 파일명) -->
                 <img src="kakao.jpg" alt="월드검품소 카카오톡 QR코드" class="w-72 h-auto mx-auto rounded-lg">
                 <p class="mt-6 text-gray-800 font-bold text-lg">카카오톡 채널: 월드검품소</p>
             </div>
         </div>
     </section>
 
-    <!-- 푸터 (Footer) -->
-    <footer class="bg-gray-900 text-white py-16">
+    <footer class="bg-gray-900 text-white py-16 w-full">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
-            
-            <!-- 회사 소개 및 블로그 링크 -->
             <div>
                 <h3 class="text-2xl font-bold mb-4 flex items-center tracking-tight">
                     <svg class="w-7 h-7 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -145,8 +131,6 @@
                     <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </a>
             </div>
-
-            <!-- Contact Info -->
             <div>
                 <h4 class="text-lg font-bold mb-6 text-gray-100 border-b border-gray-700 pb-2 inline-block">Contact Info</h4>
                 <ul class="text-gray-400 space-y-4">
@@ -169,11 +153,9 @@
                 </ul>
             </div>
         </div>
-        
         <div class="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
             &copy; 2026 월드검품소. All rights reserved.
         </div>
     </footer>
-
 </body>
 </html>
