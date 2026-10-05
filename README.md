@@ -31,21 +31,23 @@
         .delay-200 { animation-delay: 0.2s; }
     </style>
 </head>
-<body class="bg-white text-gray-800 antialiased">
+<body class="bg-white text-gray-800 antialiased overflow-x-hidden">
 
+    <!-- 상단 네비게이션 바 (잘림 현상 해결) -->
     <nav class="fixed w-full z-50 top-0 bg-white shadow-md transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
                     <i class="fas fa-check-double text-blue-900 text-3xl mr-2"></i>
-                    <span class="font-bold text-2xl text-blue-900 tracking-tight">월드검품소</span>
+                    <span class="font-bold text-xl md:text-2xl text-blue-900 tracking-tight">월드검품소</span>
                 </div>
-                <div class="hidden md:flex space-x-8 items-center">
-                    <a href="#home" class="text-gray-600 hover:text-blue-900 font-medium transition duration-300">Home</a>
-                    <a href="#about" class="text-gray-600 hover:text-blue-900 font-medium transition duration-300">About</a>
-                    <a href="#services" class="text-gray-600 hover:text-blue-900 font-medium transition duration-300">Services</a>
-                    <a href="#global" class="text-gray-600 hover:text-blue-900 font-medium transition duration-300">Global Export</a>
-                    <a href="#contact" class="bg-blue-900 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-800 transition duration-300 shadow-sm">Contact Us</a>
+                <!-- 메뉴 간격(space-x) 및 폰트 사이즈 반응형 적용 -->
+                <div class="hidden md:flex space-x-4 lg:space-x-8 items-center">
+                    <a href="#home" class="text-gray-600 hover:text-blue-900 font-medium text-sm lg:text-base transition duration-300 whitespace-nowrap">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-900 font-medium text-sm lg:text-base transition duration-300 whitespace-nowrap">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-900 font-medium text-sm lg:text-base transition duration-300 whitespace-nowrap">Services</a>
+                    <a href="#global" class="text-gray-600 hover:text-blue-900 font-medium text-sm lg:text-base transition duration-300 whitespace-nowrap">Global Export</a>
+                    <a href="#contact" class="bg-blue-900 text-white px-4 lg:px-6 py-2 rounded-full font-medium hover:bg-blue-800 transition duration-300 shadow-sm text-sm lg:text-base whitespace-nowrap">Contact Us</a>
                 </div>
                 <!-- Mobile menu button -->
                 <div class="md:hidden flex items-center">
@@ -68,7 +70,7 @@
                 고객님의 소중한 브랜드 가치를 높여드립니다.
             </p>
             <div class="flex justify-center space-x-4 fade-in-up delay-200">
-                <a href="#contact" class="bg-blue-900 text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-blue-800 transition duration-300 shadow-lg">의뢰 상담하기</a>
+                <a href="#contact" class="bg-blue-900 text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-blue-800 transition duration-300 shadow-lg whitespace-nowrap">의뢰 상담하기</a>
             </div>
         </div>
         <!-- Background decoration -->
@@ -80,7 +82,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 <div class="lg:w-1/2 w-full">
-                    <!-- 수정된 작업장 이미지 (단순화된 파일명) -->
                     <img src="inspection.jpg" alt="월드검품소 작업장 환경" class="rounded-2xl shadow-xl w-full object-cover aspect-[4/3]">
                 </div>
                 <div class="lg:w-1/2 w-full space-y-6">
@@ -145,7 +146,6 @@
             <p class="text-blue-200 mb-10 text-lg">스마트폰 카메라로 QR코드를 스캔하여 카카오톡으로 편하게 문의주세요.</p>
             
             <div class="bg-white p-8 rounded-3xl shadow-2xl inline-block max-w-sm w-full mx-auto transform hover:scale-105 transition-transform duration-300">
-                <!-- 수정된 카카오톡 이미지 (단순화된 파일명) -->
                 <img src="kakao.jpg" alt="월드검품소 카카오톡 QR코드" class="w-full h-auto rounded-xl block">
                 <p class="mt-6 text-gray-800 font-bold text-xl">카카오톡 채널: 월드검품소</p>
             </div>
