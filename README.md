@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -33,19 +33,20 @@
 </head>
 <body class="bg-white text-gray-800 antialiased overflow-x-hidden">
 
-    <!-- 상단 네비게이션 바 (좌측 정렬로 밀림 현상 완벽 해결) -->
+    <!-- 상단 네비게이션 바 (메뉴를 로고 바로 옆으로 강제 고정) -->
     <nav class="fixed w-full z-50 top-0 bg-white shadow-md transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- 모바일에서는 양끝 정렬, 데스크탑(md 이상)에서는 좌측 정렬(justify-start) 및 로고-메뉴 간격(gap-10) 적용 -->
-            <div class="flex items-center justify-between md:justify-start md:gap-10 lg:gap-16 h-20">
-                <!-- 로고 -->
+            <!-- justify-between을 빼고 flex만 유지하여 무조건 왼쪽부터 채워지게 변경 -->
+            <div class="flex items-center h-20">
+                
+                <!-- 로고 (A 위치) -->
                 <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
                     <i class="fas fa-check-double text-blue-900 text-2xl mr-2"></i>
                     <span class="font-bold text-xl md:text-2xl text-blue-900 tracking-tight whitespace-nowrap">월드검품소</span>
                 </div>
                 
-                <!-- 데스크탑 메뉴: 로고 바로 옆으로 따라오도록 설정 -->
-                <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
+                <!-- 데스크탑 메뉴 (B 위치 -> A 위치 바로 옆으로 이동 및 고정) -->
+                <div class="hidden md:flex items-center ml-8 lg:ml-12 space-x-4 lg:space-x-6">
                     <a href="#home" class="text-sm lg:text-base text-gray-600 hover:text-blue-900 font-medium transition duration-300 whitespace-nowrap">Home</a>
                     <a href="#about" class="text-sm lg:text-base text-gray-600 hover:text-blue-900 font-medium transition duration-300 whitespace-nowrap">About</a>
                     <a href="#services" class="text-sm lg:text-base text-gray-600 hover:text-blue-900 font-medium transition duration-300 whitespace-nowrap">Services</a>
@@ -53,7 +54,7 @@
                     <a href="#contact" class="text-sm lg:text-base bg-blue-900 text-white px-4 lg:px-6 py-2 rounded-full font-medium hover:bg-blue-800 transition duration-300 shadow-sm whitespace-nowrap">Contact Us</a>
                 </div>
                 
-                <!-- 모바일 메뉴 버튼 -->
+                <!-- 모바일 메뉴 버튼 (모바일 화면에서만 맨 우측으로 밀림) -->
                 <div class="md:hidden flex items-center ml-auto">
                     <button class="text-gray-600 hover:text-blue-900 focus:outline-none">
                         <i class="fas fa-bars text-2xl"></i>
