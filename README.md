@@ -1,3 +1,3 @@
-[world_bomun.index.html](https://github.com/user-attachments/files/33049274/world_bomun.index.html)
-<img width="960" height="1184" alt="kakao" src="https://github.com/user-attachments/assets/17fbf147-fb15-45ee-9b6b-f43b5e9a73a4" />
-<img width="1456" height="816" alt="inspection" src="https://github.com/user-attachments/assets/a18f85c9-554f-49b6-a550-2b13d3864dcd" />
+[index.html](https://github.com/user-attachments/files/33049542/index.html)
+<img width="960" height="1184" alt="kakao" src="https://github.com/user-attachments/assets/ccdc6881-8e72-411d-afc9-36b419582770" />
+<img width="1456" height="816" alt="inspection" src="https://github.com/user-attachments/assets/d2ef09ac-f0c2-4597-b403-da2d08392da3" />
