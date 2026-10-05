@@ -33,24 +33,28 @@
 </head>
 <body class="bg-white text-gray-800 antialiased overflow-x-hidden">
 
-    <!-- 상단 네비게이션 바 (밀림 현상 완벽 해결) -->
+    <!-- 상단 네비게이션 바 (좌측 정렬로 밀림 현상 완벽 해결) -->
     <nav class="fixed w-full z-50 top-0 bg-white shadow-md transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
+            <!-- 모바일에서는 양끝 정렬, 데스크탑(md 이상)에서는 좌측 정렬(justify-start) 및 로고-메뉴 간격(gap-10) 적용 -->
+            <div class="flex items-center justify-between md:justify-start md:gap-10 lg:gap-16 h-20">
+                <!-- 로고 -->
                 <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
-                    <i class="fas fa-check-double text-blue-900 text-3xl mr-2"></i>
-                    <span class="font-bold text-xl md:text-2xl text-blue-900 tracking-tight">월드검품소</span>
+                    <i class="fas fa-check-double text-blue-900 text-2xl mr-2"></i>
+                    <span class="font-bold text-xl md:text-2xl text-blue-900 tracking-tight whitespace-nowrap">월드검품소</span>
                 </div>
-                <!-- 화면이 좁아지면 간격(gap)과 패딩을 대폭 줄여 메뉴가 잘리지 않도록 수정 -->
-                <div class="hidden md:flex items-center gap-3 lg:gap-8">
-                    <a href="#home" class="text-gray-600 hover:text-blue-900 font-medium text-sm lg:text-base transition duration-300">Home</a>
-                    <a href="#about" class="text-gray-600 hover:text-blue-900 font-medium text-sm lg:text-base transition duration-300">About</a>
-                    <a href="#services" class="text-gray-600 hover:text-blue-900 font-medium text-sm lg:text-base transition duration-300">Services</a>
-                    <a href="#global" class="text-gray-600 hover:text-blue-900 font-medium text-sm lg:text-base transition duration-300">Global Export</a>
-                    <a href="#contact" class="bg-blue-900 text-white px-4 lg:px-6 py-2 rounded-full font-medium hover:bg-blue-800 transition duration-300 shadow-sm text-sm lg:text-base shrink-0">Contact Us</a>
+                
+                <!-- 데스크탑 메뉴: 로고 바로 옆으로 따라오도록 설정 -->
+                <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
+                    <a href="#home" class="text-sm lg:text-base text-gray-600 hover:text-blue-900 font-medium transition duration-300 whitespace-nowrap">Home</a>
+                    <a href="#about" class="text-sm lg:text-base text-gray-600 hover:text-blue-900 font-medium transition duration-300 whitespace-nowrap">About</a>
+                    <a href="#services" class="text-sm lg:text-base text-gray-600 hover:text-blue-900 font-medium transition duration-300 whitespace-nowrap">Services</a>
+                    <a href="#global" class="text-sm lg:text-base text-gray-600 hover:text-blue-900 font-medium transition duration-300 whitespace-nowrap">Global Export</a>
+                    <a href="#contact" class="text-sm lg:text-base bg-blue-900 text-white px-4 lg:px-6 py-2 rounded-full font-medium hover:bg-blue-800 transition duration-300 shadow-sm whitespace-nowrap">Contact Us</a>
                 </div>
+                
                 <!-- 모바일 메뉴 버튼 -->
-                <div class="md:hidden flex items-center">
+                <div class="md:hidden flex items-center ml-auto">
                     <button class="text-gray-600 hover:text-blue-900 focus:outline-none">
                         <i class="fas fa-bars text-2xl"></i>
                     </button>
@@ -91,7 +95,7 @@
                         전문 검품 인력이 투입되어 미세한 불량 하나까지 놓치지 않고 완벽하게 선별합니다.
                     </p>
                     <p class="text-gray-600 text-lg leading-relaxed">
-                        단순한 불량 체크를 넘어 출고 전 최종 마감까지 책임지며, 최상의 퀄리티로 제품이 유통될 수 있도록 꼼꼼하게 관리합니다.
+                        단순한 불량 체크를 넘어 출고 전 최종 마감까지 책임지며, 최상의 퀄리티로 제품 유통될 수 있도록 꼼꼼하게 관리합니다.
                     </p>
                 </div>
             </div>
