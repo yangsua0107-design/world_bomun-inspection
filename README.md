@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -201,5 +201,4 @@
     </footer>
 
 </body>
-</html><img width="960" height="1184" alt="kakao" src="https://github.com/user-attachments/assets/ed833fe8-de4d-4812-9b2b-d48b2e6436a0" />
-<img width="1456" height="816" alt="inspection" src="https://github.com/user-attachments/assets/2e301bfd-9990-49b0-998a-a15a55b55348" />
+</html>
