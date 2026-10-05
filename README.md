@@ -1,114 +1,103 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>월드검품소 - 최상의 품질을 향한 타협 없는 기준</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            navy: '#1A2A40',
-                            blue: '#2B4C7E',
-                            light: '#F8FAFC',
-                            accent: '#4CAF50'
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Pretendard', sans-serif; }
-    </style>
-</head>
-<body class="bg-brand-light text-gray-800">
-
-    <!-- Navigation -->
-    <nav class="fixed w-full bg-white shadow-sm z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-20 items-center">
-                <div class="flex items-center">
-                    <a href="#" class="text-2xl font-bold text-brand-navy flex items-center gap-2">
-                        <i class="fa-solid fa-check-double text-blue-600"></i> 월드검품소
-                    </a>
-                </div>
-                <div class="hidden md:flex space-x-8 items-center">
-                    <a href="#home" class="text-gray-600 hover:text-brand-blue font-medium transition">Home</a>
-                    <a href="#about" class="text-지금까지 요청하신 모든 변경 사항(최종 이미지 경로 수정, 3단계 검품 시스템, 카카오톡 상담 전용 섹션, 네이버 블로그 링크, 푸터 연락처 업데이트 등)이 완벽하게 적용된 전체 HTML 코드입니다. 
-
-아래 코드를 복사하여 GitHub의 `index.html` 파일에 그대로 덮어쓰기 하시면 됩니다.
-
-```html
+[code_artifact (5).html](https://github.com/user-attachments/files/33044371/code_artifact.5.html)
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>월드검품소 - 최상의 품질을 위한 타협 없는 기준</title>
-    <!-- Tailwind CSS (디자인 프레임워크) -->
-    <script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#1e3a5f',
+                            900: '#0f172a',
+                        },
+                        brand: {
+                            blue: '#2563eb',
+                            light: '#f8fafc',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Pretendard"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
     <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         html { scroll-behavior: smooth; }
-        .text-navy { color: #1a2a3a; }
-        .bg-navy { background-color: #1a2a3a; }
+        body { font-family: 'Pretendard', sans-serif; }
     </style>
 </head>
-<body class="font-sans text-gray-800 antialiased bg-white">
+<body class="text-gray-800 bg-white antialiased">
 
-    <!-- 내비게이션 바 -->
-    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+    <nav class="fixed w-full z-50 top-0 bg-white shadow-sm border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex-shrink-0 flex items-center">
-                    <span class="text-2xl font-extrabold text-navy tracking-tight">월드검품소</span>
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <i class="fa-solid fa-check-double text-brand-blue text-2xl mr-2"></i>
+                    <span class="text-2xl font-extrabold text-navy-900 tracking-tight">월드검품소</span>
                 </div>
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8 items-center">
-                    <a href="#home" class="text-gray-600 hover:text-blue-900 font-medium transition">Home</a>
-                    <a href="#about" class="text-gray-600 hover:text-blue-900 font-medium transition">About</a>
-                    <a href="#services" class="text-gray-600 hover:text-blue-900 font-medium transition">Services</a>
-                    <a href="#export" class="text-gray-600 hover:text-blue-900 font-medium transition">Global Export</a>
-                    <a href="#contact" class="bg-blue-900 text-white hover:bg-blue-800 px-5 py-2 rounded-full font-medium transition shadow-sm">Contact Us</a>
+                    <a href="#home" class="text-gray-600 hover:text-brand-blue font-semibold transition">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-brand-blue font-semibold transition">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-brand-blue font-semibold transition">Services</a>
+                    <a href="#export" class="text-gray-600 hover:text-brand-blue font-semibold transition">Global Export</a>
+                    <a href="#contact" class="bg-navy-900 text-white hover:bg-navy-800 px-6 py-2.5 rounded-full font-semibold transition shadow-md">Contact Us</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- 메인 타이틀 (Home) -->
-    <section id="home" class="pt-32 pb-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-4xl md:text-5xl font-bold text-navy mb-6 leading-tight">
+    <section id="home" class="pt-32 pb-20 lg:pt-48 lg:pb-32 bg-brand-light relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-navy-900 mb-6 leading-tight tracking-tight">
                 성공적인 비즈니스를 위한<br>
-                <span class="text-blue-700">완벽한 품질 컨트롤</span>
+                <span class="text-brand-blue">완벽한 품질 컨트롤</span>
             </h1>
-            <p class="text-lg text-gray-600 mb-10">
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
                 수년간 축적된 노하우와 철저한 검품 시스템으로<br class="hidden md:block">
                 고객님의 소중한 브랜드 가치를 높여드립니다.
             </p>
-            <a href="#contact" class="inline-block bg-navy text-white font-semibold px-8 py-3 rounded-full hover:bg-gray-800 transition shadow-md">
+            <a href="#contact" class="inline-block bg-navy-900 text-white text-lg font-semibold px-8 py-4 rounded-full hover:bg-navy-800 transition shadow-lg transform hover:-translate-y-1">
                 의뢰 상담하기
             </a>
         </div>
+        <!-- Decorative Background -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-blue-100 opacity-50 blur-3xl"></div>
     </section>
 
-    <!-- 소개 영역 (Apparel Inspection) -->
-    <section id="about" class="py-20">
+    <section id="about" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col lg:flex-row items-center gap-12">
+            <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+                <!-- Image Container -->
                 <div class="w-full lg:w-1/2">
-                    <!-- 수정된 작업장 이미지 -->
-                    <img src="u7118764141____--ar_9151_--edit_httpss.mj.runqAAIzKYEtwE_--v__de90c36d-1013-4e89-b4f2-61fb30025d20_2 (1).jpg" alt="월드검품소 작업장 환경" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]">
+                    <div class="rounded-2xl overflow-hidden shadow-2xl relative">
+                        <img src="u7118764141____--ar_9151_--edit_httpss.mj.runqAAIzKYEtwE_--v__de90c36d-1013-4e89-b4f2-61fb30025d20_2 (1).jpg" 
+                             alt="월드검품소 작업장 환경" 
+                             class="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
                 </div>
+                <!-- Text Container -->
                 <div class="w-full lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-navy mb-6 border-b-2 border-blue-900 pb-2 inline-block">Apparel Inspection</h2>
+                    <h4 class="text-brand-blue font-bold tracking-wider uppercase mb-2">About Us</h4>
+                    <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-6">Apparel Inspection</h2>
                     <p class="text-gray-600 leading-relaxed text-lg mb-6">
-                        월드검품소는 다년간의 검품 노하우를 바탕으로, 의류 검품에 가장 최적화된 밝고 청결한 작업 환경을 구축하고 있습니다. 
-                        전문 검품 인력이 투입되어 미세한 불량 하나까지 놓치지 않고 완벽하게 선별합니다.
+                        월드검품소는 다년간의 검품 노하우를 바탕으로, 의류 검품에 가장 최적화된 밝고 청결한 작업 환경을 구축하고 있습니다. 전문 검품 인력이 투입되어 미세한 불량 하나까지 놓치지 않고 완벽하게 선별합니다.
                     </p>
                     <p class="text-gray-600 leading-relaxed text-lg">
                         단순한 불량 체크를 넘어 출고 전 최종 마감까지 책임지며, 최상의 퀄리티로 제품이 유통될 수 있도록 꼼꼼하게 관리합니다.
@@ -118,109 +107,115 @@
         </div>
     </section>
 
-    <!-- 3단계 검품 시스템 (Services) -->
-    <section id="services" class="py-20 bg-gray-50">
+    <section id="services" class="py-24 bg-brand-light">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-navy mb-4">체계적인 3단계 검품 시스템</h2>
-                <p class="text-gray-500">타협 없는 기준으로 진행되는 월드검품소만의 프로세스입니다.</p>
+                <h4 class="text-brand-blue font-bold tracking-wider uppercase mb-2">Our Services</h4>
+                <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-4">체계적인 3단계 검품 시스템</h2>
+                <p class="text-gray-500 text-lg">타협 없는 기준으로 진행되는 월드검품소만의 프로세스입니다.</p>
             </div>
             
-            <!-- lg:grid-cols-3 로 변경된 3단계 배열 -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- 1단계 -->
-                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition text-center">
-                    <div class="w-16 h-16 bg-blue-100 text-blue-900 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">1</div>
-                    <h3 class="text-xl font-bold text-navy mb-3">외관 및 오염 검사</h3>
-                    <p class="text-gray-600">원단의 이색, 미세한 오염, 스크래치 등 외부적인 결함을 밝은 조명 아래서 꼼꼼하게 확인합니다.</p>
+            <!-- 3 Column Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="bg-white p-10 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 text-center group">
+                    <div class="w-20 h-20 bg-blue-50 text-brand-blue rounded-full flex items-center justify-center text-3xl font-black mx-auto mb-6 group-hover:bg-brand-blue group-hover:text-white transition-colors">1</div>
+                    <h3 class="text-2xl font-bold text-navy-900 mb-4">외관 및 오염 검사</h3>
+                    <p class="text-gray-600 leading-relaxed">원단의 이색, 미세한 오염, 스크래치 등 외부적인 결함을 밝은 조명 아래서 꼼꼼하게 확인합니다.</p>
                 </div>
-                <!-- 2단계 -->
-                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition text-center">
-                    <div class="w-16 h-16 bg-blue-100 text-blue-900 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">2</div>
-                    <h3 class="text-xl font-bold text-navy mb-3">봉제 상태 검사</h3>
-                    <p class="text-gray-600">땀수, 땀뜀, 봉제선 틀어짐, 실밥 처리 등 전체적인 의류의 완성도와 봉제 퀄리티를 엄격하게 체크합니다.</p>
+                <!-- Step 2 -->
+                <div class="bg-white p-10 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 text-center group">
+                    <div class="w-20 h-20 bg-blue-50 text-brand-blue rounded-full flex items-center justify-center text-3xl font-black mx-auto mb-6 group-hover:bg-brand-blue group-hover:text-white transition-colors">2</div>
+                    <h3 class="text-2xl font-bold text-navy-900 mb-4">봉제 상태 검사</h3>
+                    <p class="text-gray-600 leading-relaxed">땀수, 땀뜀, 봉제선 틀어짐, 실밥 처리 등 전체적인 의류의 완성도와 봉제 퀄리티를 엄격하게 체크합니다.</p>
                 </div>
-                <!-- 3단계 -->
-                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition text-center">
-                    <div class="w-16 h-16 bg-blue-100 text-blue-900 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">3</div>
-                    <h3 class="text-xl font-bold text-navy mb-3">포장 및 최종 확인</h3>
-                    <p class="text-gray-600">메인 라벨 및 케어 라벨 부착 상태, 폴리백 포장 등 바이어에게 출고되기 전 마지막 상태를 완벽하게 점검합니다.</p>
+                <!-- Step 3 -->
+                <div class="bg-white p-10 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 text-center group">
+                    <div class="w-20 h-20 bg-blue-50 text-brand-blue rounded-full flex items-center justify-center text-3xl font-black mx-auto mb-6 group-hover:bg-brand-blue group-hover:text-white transition-colors">3</div>
+                    <h3 class="text-2xl font-bold text-navy-900 mb-4">포장 및 최종 확인</h3>
+                    <p class="text-gray-600 leading-relaxed">메인 라벨 및 케어 라벨 부착 상태, 폴리백 포장 등 바이어에게 출고되기 전 마지막 상태를 완벽하게 점검합니다.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 해외 수출 (Global Export) -->
-    <section id="export" class="py-20">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold text-navy mb-6">해외시장을 만족시키는 하이엔드 퀄리티</h2>
-            <p class="text-gray-600 text-lg leading-relaxed">
-                월드검품소는 가장 까다로운 일본 바이어들의 기준까지 완벽하게 충족시키는 정밀한 검품 서비스를 제공하고 있습니다. 
-                글로벌 스탠다드에 맞춘 철저한 품질 관리 시스템을 통해 고객사의 성공적인 해외 수출과 안정적인 비즈니스를 든든하게 지원합니다.
+    <section id="export" class="py-24 bg-navy-900 text-white relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h4 class="text-brand-blue font-bold tracking-wider uppercase mb-2">Global Export</h4>
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">해외시장을 만족시키는 하이엔드 퀄리티</h2>
+            <p class="text-gray-300 text-lg md:text-xl leading-relaxed">
+                월드검품소는 가장 까다로운 해외 바이어들의 기준까지 완벽하게 충족시키는 정밀한 검품 서비스를 제공하고 있습니다. 글로벌 스탠다드에 맞춘 철저한 품질 관리 시스템을 통해 고객사의 성공적인 해외 수출과 안정적인 비즈니스를 든든하게 지원합니다.
             </p>
         </div>
     </section>
 
-    <!-- 상담 문의 (Contact Us - 카카오톡 전용) -->
-    <section id="contact" class="py-20 bg-blue-900">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold text-white mb-4">빠르고 간편한 상담 문의</h2>
-            <p class="text-blue-200 mb-10">스마트폰 카메라로 QR코드를 스캔하여 카카오톡으로 편하게 문의주세요.</p>
+    <section id="contact" class="py-24 bg-white text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h4 class="text-brand-blue font-bold tracking-wider uppercase mb-2">Contact Us</h4>
+            <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-4">빠르고 간편한 상담 문의</h2>
+            <p class="text-gray-600 text-lg mb-12">스마트폰 카메라로 아래 QR코드를 스캔하여 카카오톡으로 편하게 문의주세요.</p>
             
-            <div class="bg-white p-8 rounded-2xl shadow-2xl inline-block">
-                <!-- 카카오톡 프로필 이미지 -->
-                <img src="월드검품소 카톡프로필.jpg" alt="월드검품소 카카오톡 QR코드" class="w-72 h-auto mx-auto rounded-lg">
-                <p class="mt-6 text-gray-800 font-bold text-lg">카카오톡 채널: 월드검품소</p>
+            <div class="inline-block bg-white p-6 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-gray-100 transform transition-transform hover:-translate-y-2">
+                <img src="월드검품소 카톡프로필.jpg" alt="월드검품소 카카오톡 상담" class="w-72 sm:w-80 h-auto rounded-2xl mx-auto block">
+                <div class="mt-6 flex items-center justify-center space-x-2">
+                    <div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                        <i class="fa-solid fa-comment text-brown-900 text-sm"></i>
+                    </div>
+                    <p class="text-gray-900 font-bold text-xl">카카오톡 채널: 월드검품소</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- 푸터 (Footer) -->
-    <footer class="bg-gray-900 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
-            
-            <!-- 회사 소개 및 블로그 링크 -->
-            <div>
-                <h3 class="text-2xl font-bold mb-4 flex items-center tracking-tight">
-                    <svg class="w-7 h-7 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                    월드검품소
-                </h3>
-                <p class="text-gray-400 mb-6 leading-relaxed">
-                    최상의 품질을 향한 타협 없는 기준. 월드검품소가 고객님의 브랜드를 더욱 가치 있게 만들어 드립니다. 의뢰 상담 및 견적 문의를 환영합니다.
-                </p>
-                <!-- 네이버 블로그 링크 -->
-                <a href="[https://blog.naver.com/world_bomun](https://blog.naver.com/world_bomun)" target="_blank" class="inline-flex items-center text-green-400 hover:text-green-300 font-bold transition">
-                    네이버 블로그 바로가기
-                    <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                </a>
+    <footer class="bg-gray-900 text-white pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                
+                <!-- Company Info & Naver Blog -->
+                <div class="space-y-6">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-check-double text-brand-blue text-2xl mr-2"></i>
+                        <span class="text-3xl font-extrabold tracking-tight text-white">월드검품소</span>
+                    </div>
+                    <p class="text-gray-400 text-lg leading-relaxed max-w-md">
+                        최상의 품질을 향한 타협 없는 기준.<br>월드검품소가 고객님의 브랜드를 더욱 가치 있게 만들어 드립니다.
+                    </p>
+                    <div>
+                        <a href="https://blog.naver.com/world_bomun" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 bg-gray-800 hover:bg-[#03C75A] text-gray-300 hover:text-white px-5 py-3 rounded-lg transition-colors border border-gray-700 hover:border-[#03C75A] group shadow-sm">
+                            <span class="font-black text-[#03C75A] group-hover:text-white text-lg">N</span>
+                            <span class="font-medium">네이버 블로그 방문하기</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="bg-gray-800/50 p-8 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-6 border-b border-gray-700 pb-4">Contact Info</h3>
+                    <ul class="space-y-5 text-gray-300">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-map-location-dot mt-1 mr-4 text-brand-blue w-5 text-center"></i>
+                            <span class="leading-relaxed">서울특별시 성북구 지봉로 178<br>세경빌딩 2층 월드검품소</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-solid fa-phone mr-4 text-brand-blue w-5 text-center"></i>
+                            <span class="font-medium">010-7378-8322</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-solid fa-envelope mr-4 text-brand-blue w-5 text-center"></i>
+                            <span>lux7101@naver.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-solid fa-clock mr-4 text-brand-blue w-5 text-center"></i>
+                            <span>평일 09:30 - 18:00</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <!-- 변경된 Contact Info -->
-            <div>
-                <h4 class="text-lg font-bold mb-6 text-gray-100 border-b border-gray-700 pb-2 inline-block">Contact Info</h4>
-                <ul class="text-gray-400 space-y-4">
-                    <li class="flex items-start">
-                        <span class="text-gray-200 font-semibold w-24 flex-shrink-0">위치</span>
-                        <span>서울특별시 성북구 지봉로 178 세경빌딩 2층 월드검품소</span>
-                    </li>
-                    <li class="flex items-center">
-                        <span class="text-gray-200 font-semibold w-24 flex-shrink-0">전화번호</span>
-                        <span>010-7378-8322</span>
-                    </li>
-                    <li class="flex items-center">
-                        <span class="text-gray-200 font-semibold w-24 flex-shrink-0">이메일</span>
-                        <span>lux7101@naver.com</span>
-                    </li>
-                    <li class="flex items-center">
-                        <span class="text-gray-200 font-semibold w-24 flex-shrink-0">운영시간</span>
-                        <span>평일 09:30 - 18:00</span>
-                    </li>
-                </ul>
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; 2026 월드검품소. All rights reserved.</p>
             </div>
-        </div>
-        
-        <div class="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-            &copy; 2026 월드검품소. All rights reserved.
         </div>
     </footer>
 
